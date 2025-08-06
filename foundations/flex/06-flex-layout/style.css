@@ -29,9 +29,9 @@ input {
   width: 400px;
 }
 
-ul, li {
+ul {
   list-style-type: none;
-  display: inline;
+  display: flex;
   margin: 0;
   padding: 0;
   gap: 12px;
@@ -50,7 +50,7 @@ a {
 
 .left-links, .right-links {
   display: flex;
-  justify-content: center;
+  gap: 12px;
 }
 
 .footer {
